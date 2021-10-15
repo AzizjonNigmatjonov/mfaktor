@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MFactor</title>
+    
+    <link rel="stylesheet" href="../assets/css/uikit.min.css"  media="all"/>
+    <link rel="stylesheet" href="../assets/css/tailwind.css"  media="all"/>
+    <link rel="stylesheet" href="../assets/sass/main.css" media="all">
+    <link rel="icon" href="../assets/img/logos/Logo-white.svg">
+</head>
+<body>
+    
+    <div uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" class="navbar">
+        <header class="header absolute top-0 left-0 w-full z-10 border-b border-[#1d1d1b] bg-[#f8f8f8] border-opacity-[0.06]" uk-scrollspy="target: .animateRight; cls: uk-animation-slide-left-small; delay: 300;">
+            
+            <div class="uk-container uk-container-large">
+                <nav class="uk-flex uk-flex-middle py-[24px]" uk-grid>
+                    
+                    <div class="uk-navbar-left">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="index.html">
+                                            <img class="w-[65px] md:w-[100px] uk-animation-fade" src="../assets/img/logos/Logo-black.svg" alt="Logo">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="uk-visible@l">
+                                <div class="2xl:ml-[10px] 2xl:mr-[10px]">
+                                    <hr class="border-none w-[2px] h-[60px] bg-[#1d1d1b] bg-opacity-[0.06]">
+                                </div>
+                            </div>
+                            
+                            <div class="uk-visible@l">
+                                <ul class="uk-flex-middle 2xl:space-x-[30px]" uk-grid>
+                                    <li class="text-[#1d1d1b]">
+                                        <a href="about.html" class="font-400 text-[#1d1d1b] text-opacity-[0.64] hover-link uk-animation-fade">
+                                            Biz haqimizda
+                                        </a>
+                                    </li>
+                                    <li class="text-[#1d1d1b] nav-item">
+                                        <a href="service.html" class="font-400 text-[#1d1d1b] text-opacity-[0.64] hover-link uk-flex uk-flex-middle uk-animation-fade">
+                                            <span> Xizmatlar</span>
+                                            <svg class="stroke-current ml-[6px] mt-[3px]" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.5 0.75L5 4.25L1.5 0.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </a>
+                                        <div uk-dropdown="pos: bottom-left; animation: uk-animation-slide-top-small; duration: 200" style="padding: 20px 30px 30px 24px;">
+                                            <ul class="uk-nav uk-dropdown-nav">
+                                                <li class="uk-parent">
+                                                    <a href="./training.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl">
+                                                        Treninglar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="cours.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Kurslar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="add.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Reklama xizmatlari
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="shows.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Tijoriy ko‘rsatuvlar
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                                <li class="uk-parent">
+                                                    <a href="events.html" class="uk-flex uk-flex-middle uk-flex-between mt-[3px] text-lg 2xl:text-xl 2xl:mt-[10px]">
+                                                        Tadbirlar tashkillashtirish
+                                                        <img class="w-[16px] h-[10px] rotate-[-90deg]" src="../assets/img/svg/arrow-bottom.svg" alt="arrow">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="text-[#1d1d1b]">
+                                        <a href="FAQ.html" class="font-400 text-[#1d1d1b] text-opacity-[0.64] hover-link uk-animation-fade">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li class="text-[#1d1d1b]">
+                                        <a href="contact.html" class="font-400 text-[#1d1d1b] text-opacity-[0.64] hover-link uk-animation-fade">
+                                            Kontakt
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="uk-navbar-right">
+                        <div class="uk-flex-middle 2xl:space-x-[30px]" uk-grid>
+                            <div class="text-[#1d1d1b] uk-visible@m">
+                                <a href="contact.html" class="py-[14px] px-[36px] border-2 border-[#e3e3e5] hover-link text-[#1d1d1b] animBtnTop uk-animation-fade">
+                                    Bog'lanish
+                                </a>
+                            </div>
+                            <div class="uk-visible@l">
+                                <div>
+                                    <a href="#searchModal" uk-toggle>
+                                        <img class="uk-animation-fade w-[24px] h-[24px]" src="../assets/img/svg/search.svg" alt="search">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="searchModal" uk-modal>
+                                <div class="uk-modal-dialog uk-modal-body md:p-[30px]" uk-scrollspy="target: .animateLeft; uk-animation-slide-left; delay: 200">
+                                    <div>
+                                        <div class="flex items-center bg-[#f8f8f8]">
+                                            <svg class="stroke-current ml-[15px]" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M22 22L20 20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>                                                
+                                            <input class="pl-[10px] mr-[20px] py-[15px] w-full focus:outline-none bg-[#f8f8f8] text-[#1d1d1b]" placeholder="Search" type="text">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-[16px] mt-[30px] text-[#1d1d1b] font-400 uk-text-uppercase mb-[5px] text-sm" style="font-family: ALS Hauss;">Xizmatlarimiz</h3>
+                                    <ul class="p-[10px] uk-grid-small uk-child-width-1-1" uk-grid>
+                                        <li class="uk-parent text-[#1d1d1b] animateLeft">
+                                            <a href="training.html" class="hover-link">
+                                                Treninglar
+                                            </a>
+                                        </li>
+                                        <li class="uk-parent text-[#1d1d1b] animateLeft">
+                                            <a href="cours.html" class="hover-link">
+                                                Kurslar
+                                            </a>
+                                        </li>
+                                        <li class="uk-parent text-[#1d1d1b]">
+                                            <a href="add.html" class="hover-link">
+                                                Reklama xizmatlari
+                                            </a>
+                                        </li>
+                                        <li class="uk-parent text-[#1d1d1b]">
+                                            <a href="shows.html" class="hover-link">
+                                                Tijoriy ko‘rsatuvlar
+                                            </a>
+                                        </li>
+                                        <li class="uk-parent text-[#1d1d1b]">
+                                            <a href="events.html" class="hover-link">
+                                                Tadbirlar tashkillashtirish
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="uk-visible@l">
+                                <div class="">
+                                    <a href="#" class="nav-link uk-animation-fade hover:text-[#1d1d1b] hover:no-underline text-[#1d1d1b] lang inline-flex font-500 items-center px-4" uk-scrollspy="cls: uk-animation-slide-right; delay: 200;" style="animation-duration: .8s;">
+                                        UZ
+                                        <svg class="stroke-current ml-[5px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.24" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path opacity="0.64" d="M8.47021 10.74L12.0002 14.26L15.5302 10.74" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                    <div class="uk-padding-remove rounded-[4px]" style="min-width: 100px;" uk-dropdown="pos: bottom-justify;animation: uk-animation-slide-top-small; duration: 200; mode: click">
+                                        
+                                        <ul class="uk-grid uk-grid-small uk-flex-middle uk-flex-column uk-padding-small" uk-grid >
+                                            <li class="uk-width-auto text-[#1d1d1b]">
+                                                <a href="https://estetclinic.uz/ru" class="hover-link text-[#1d1d1b] font-500">
+                                                    RU
+                                                </a>
+                                            </li>
+                                            <li class="uk-width-auto text-[#1d1d1b]">
+                                                <a href="https://estetclinic.uz/en" class="hover-link text-[#1d1d1b] font-500">
+                                                    EN
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="uk-hidden@l">
+                                <div class="text-[#1d1d1b]">
+                                    <a href="javascript:void(0);" uk-toggle="target: #offcanvas-flip" class="text-[#1d1d1b] hover-link">
+                                        <ul class="uk-flex uk-flex-column space-y-[2px]">
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#1d1d1b]">
+                                            </li>
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#1d1d1b]">
+                                            </li>
+                                            <li>
+                                                <hr class="border-none w-[16px] h-[2px] bg-[#1d1d1b]">
+                                            </li>
+                                        </ul>                                           
+                                    </a>
+                                </div>
+                                
+                                <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                                    <div class="uk-offcanvas-bar">
+                                        
+                                        <div class="uk-flex uk-flex-right">
+                                            <button class="uk-offcanvas-close" type="button" uk-close>
+                                                <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+                                            </button>
+                                        </div>
+                                        
+                                        <ul class="mt-[20px] items-end uk-flex-column uk-grid-small uk-text-uppercase uk-child-width-1-1" uk-grid uk-scrollspy="target: .animBottom; cls: uk-animation-slide-top-small; delay: 100; repeat: true">
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="service.html" class="font-400 animBottom">
+                                                    Xizmatlar
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="about.html" class="font-400 animBottom">
+                                                    Biz haqimizda
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="cours.html" class="font-400 animBottom">
+                                                    Kurslar
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="training.html" class="font-400 animBottom">
+                                                    Treninglar
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="shows.html" class="font-400 animBottom">
+                                                    Tijoriy ko‘rsatuvlar
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="events.html" class="font-400 animBottom">
+                                                    Tadbirlar tashkillashtirish
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="add.html" class="font-400 animBottom">
+                                                    Reklama xizmatlari
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="contact.html" class="font-400 animBottom">
+                                                    Kontakt
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <a href="FAQ.html" class="font-400 animBottom">
+                                                    FAQ
+                                                </a>
+                                            </li>
+                                            <div>
+                                                <hr class="border-none w-full h-[1px] bg-[#fff] bg-opacity-[0.06]">
+                                            </div>
+                                            <li class="uk-flex uk-flex-right">
+                                                <ul class="uk-grid-small uk-flex-middle" uk-grid>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">UZ</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                    </li>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">RU</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="border-none w-[1px] h-[16px] bg-[#fff] bg-opacity-[0.06]">
+                                                    </li>
+                                                    <li class="text-[#fff]">
+                                                        <a href="#" class="text-[#fff] font-400 hover-link animBottom">EN</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </nav>
+            </div>
+            
+        </header>
+    </div>
+    
+    <section class="uk-section mt-[90px] md:mt-[70px] bg-[#f8f8f8] z-[1] relative uk-overflow-hidden" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100">
+        <div class="uk-container uk-container-large uk-margin-small-top relative">
+            <div>
+                <ul class="uk-grid-small uk-flex-middle" uk-grid>
+                    <li class="text-[#1d1d1b]">
+                        <a href="index.html" class="text-[#1d1d1b] hover-link 2xl:text-lg">Bosh sahifa</a>
+                    </li>
+                    <li>
+                        <hr class="border-none w-[1px] h-[16px] bg-[#1d1d1b] bg-opacity-[0.44] rotate-[16deg]">
+                    </li>
+                    <li class="text-[#1d1d1b]">
+                        <a href="service.html" class="text-[#1d1d1b] hover-link 2xl:text-lg">Xizmatlar</a>
+                    </li>
+                    <li>
+                        <hr class="border-none w-[1px] h-[16px] bg-[#1d1d1b] bg-opacity-[0.44] rotate-[16deg]">
+                    </li>
+                    <li class="text-[#1d1d1b]">
+                        <p class="text-[#1d1d1b] hover-link 2xl:text-lg">Kurslar</p>
+                    </li>
+                </ul>
+                
+                <div class="mt-[43px] md:w-[450px]">
+                    <h2 class="heading-section animTop">Kurslar</h2>
+                    <div class="mt-[10px] animTop">
+                        <p class="text-[#1d1d1b] text-opacity-[0.64] sm:text-lg 2xl:text-xl">
+                            MFaktor tadbirkorlar va top menejerlar uchun
+                            <span class="text-[#E30613]">“Zoom in”</span> formatda biznes kurslarni taqdim etadi.
+                        </p>
+                    </div>
+                </div> 
+                
+                <div class="mt-[23px] xl:mt-[43px]">
+                    <ul class="uk-child-width-1-5@l uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-collapse uk-grid-match course-course-section-wrapper" uk-grid uk-scrollspy="target: .animFade; cls: uk-animation-fade; delay: 100">
+                        <li class="py-[30px] px-[30px] min-h-[230px] border-l-[3px] border-[#E30613] bg-[#fff] animFade">
+                            <div class="uk-flex uk-flex-column">
+                                <div>
+                                    <img class="w-[64px] h-[64px] object-cover" loading="lazy" src="../assets/img/svg/courses-calendar-icon.svg" alt="calendar">
+                                </div>
+                                <div class="mt-[15px]">
+                                    <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                        “Zoom in” kurslar kamida 1 oy davom etadi
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-[30px] px-[30px] min-h-[230px] border-l-[3px] border-[#E30613] bg-[#fff] animFade">
+                            <div class="uk-flex uk-flex-column">
+                                <div>
+                                    <img class="w-[64px] h-[64px] object-cover" loading="lazy" src="../assets/img/svg/courses-clock-icon.svg" alt="clock">
+                                </div>
+                                <div class="mt-[15px]">
+                                    <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                        Kurs haftada bir kun 8-9 soatdan davom etadi
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-[30px] px-[30px] min-h-[230px] border-l-[3px] border-[#E30613] bg-[#fff] animFade">
+                            <div class="uk-flex uk-flex-column">
+                                <div>
+                                    <img class="w-[64px] h-[64px] object-cover" loading="lazy" src="../assets/img/svg/courses-modules-icon.svg" alt="modules">
+                                </div>
+                                <div class="mt-[15px]">
+                                    <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                        O‘quv kursi bir qancha modullardan tashkil topadi
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-[30px] px-[30px] min-h-[230px] border-l-[3px] border-[#E30613] bg-[#fff] animFade">
+                            <div class="uk-flex uk-flex-column">
+                                <div>
+                                    <img class="w-[64px] h-[64px] object-cover" loading="lazy" src="../assets/img/svg/courses-aproach-icon.svg" alt="aproach">
+                                </div>
+                                <div class="mt-[15px]">
+                                    <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                        Har bir ishtirokchining muammosiga alohida yondashilinadi
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-[30px] px-[30px] min-h-[230px] border-l-[3px] border-[#E30613] bg-[#fff] animFade">
+                            <div class="uk-flex uk-flex-column">
+                                <div>
+                                    <img class="w-[64px] h-[64px] object-cover" loading="lazy" src="../assets/img/svg/courses-key-icon.svg" alt="key">
+                                </div>
+                                <div class="mt-[15px]">
+                                    <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                        Muammoingizni yechish uchun alohida tavsiyalar beriladi
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <section class="uk-section bg-[#f8f8f8] uk-padding-remove-bottom" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100">
+        <div class="uk-container uk-container-large">
+            <div>
+                <ul class="uk-child-width-1-2@l" uk-grid>
+                    <li>
+                        <div class="uk-grid 2xl:w-[87%]" uk-grid>
+                            <div>
+                                <h3 class="heading-section animTop">Sertifikat beriladi</h3>
+                                <div class="mt-[6px] uk-width-3-4 animTop">
+                                    <p class="text-[#1d1d1b] text-opacity-[0.64] sm:text-lg 2xl:text-xl">
+                                        Har bir ishtorokchiga trening yoki kurs so’ngida uni
+                                        tugatganligi haqida sertifikat topshiriladi.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="mt-[20px]">
+                                    <h5 class="heading-fourth text-[#1d1d1b] animTop">Shuningdek:</h5>
+                                </div>
+                                <ul class="space-y-[20px] mt-[10px]">
+                                    <li class="relative animTop">
+                                        <div class="absolute top-[10px] left-0 bg-[#E30613] w-[6px] h-[6px] rounded-full mr-[12px]"></div> 
+                                        <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                            <span class="ml-[12px]">Har</span> bir kurs va treninglar paytida ishtirokchilar bilan muloqotda bo’lishingiz, tanishingiz orqali yangi hamkorlar va mijozlar orttirishingiz mumkin
+                                        </p>
+                                    </li>
+                                    <li class="relative animTop">
+                                        <div class="absolute top-[10px] left-0 bg-[#E30613] w-[6px] h-[6px] rounded-full mr-[12px]"></div> 
+                                        <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                            <span class="ml-[12px]">Treninglar</span> a'zolari maxsus yopiq guruhlarga qo'shilib, guruhdagi havola orqali istalgan vaqtda YouTube platformasida tadbirning video formatini qayta ko'rishlari mumkin bo'ladi.
+                                        </p>
+                                    </li>
+                                    <li class="relative animTop">
+                                        <div class="absolute top-[10px] left-0 bg-[#E30613] w-[6px] h-[6px] rounded-full mr-[12px]"></div> 
+                                        <p class="sm:text-lg 2xl:text-xl text-[#1d1d1b]">
+                                            <span class="ml-[12px]">Bundan</span> tashqari barcha a'zolarning bir guruhga yig'ilishi kelgusida turli masalalarni muhokama qilish va muammolarga birgalikda yechim topish imkoniyatini beradi.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-flex uk-flex-center">
+                        <div>
+                            <img class="w-auto lg:min-h-[600px] lg:max-h-[650px] object-cover" uk-scrollspy="cls: uk-animation-shake; delay: 100; repeat: true" loading="lazy" src="../assets/img/about/sertificate-img.png" alt="sertificate">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section bg-[#f8f8f8] uk-overflow-hidden" uk-scrollspy="target: .animTop; cls: uk-animation-slide-bottom-medium; delay: 100">
+        <div class="uk-container uk-container-large uk-margin-large-bottom">
+            <div class="lg:w-[600px]">
+                <h2 class="heading-section animTop">Kurslardan foto lavhalar</h2>
+                <div class="mt-[10px] animTop">
+                    <p class="text-[#1d1d1b] text-opacity-[0.64] sm:text-lg 2xl:text-xl">
+                        MFaktor is an independent, international branding agency.
+                        We provide a wide range of branding services.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-[43px]">
+                
+                <div class="uk-grid-small uk-child-width-1-1 uk-visible@l" uk-grid>
+                    
+                    <div>
+                        <div class="uk-grid-small uk-child-width-1-2" uk-grid>
+                            <div uk-parallax="x: -300,0; opacity: 0,1; viewport: 0.4;" data-uk-scrollspy>
+                                <div class="uk-thumbnav group">
+                                    <div class="uk-active">
+                                        <div class="uk-overflow-hidden">
+                                            <img class="w-full max-h-[690px] course-gallery-list-wrapper-img-1 object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-1-img.png" alt="gallery" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                                    <div>
+                                        <div class="uk-child-width-1-2" uk-grid>
+                                            <div uk-parallax="y: -100,0; scale: 1.3,1; viewport: 0.5;">
+                                                <div class="uk-thumbnav group">
+                                                    <div>
+                                                        <div class="uk-overflow-hidden">
+                                                            <img class="w-full max-h-[335px] h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-2-img.png" alt="gallery" loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div uk-parallax="x: 300,0; y: -100,0; opacity: 0,1; viewport: 0.5;">
+                                                <div class="uk-thumbnav group">
+                                                    <div>
+                                                        <div class="uk-overflow-hidden">
+                                                            <img class="w-full max-h-[335px] h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-3-img.png" alt="gallery" loading="lazy">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div uk-parallax="x: 200,0; scale: 1.1,1; viewport: 0.3;">
+                                        <div class="uk-thumbnav group">
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img class="w-full max-h-[335px] lg:h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-4-img.png" alt="gallery" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    
+                    <div>                 
+                        <div class="uk-grid-small uk-child-width-1-2" uk-grid>
+                            <div uk-parallax="y: 100,0; x: -100,0; opacity: 0,1; viewport: 0.3;">
+                                <div class="uk-thumbnav group">
+                                    <div>
+                                        <div class="uk-overflow-hidden">
+                                            <img class="w-full max-h-[335px] h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-5-img.png" alt="gallery" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div>
+                                <div class="uk-child-width-1-2 uk-grid-small" uk-grid>
+                                    <div uk-parallax="y: 100,0; opacity: 0,1; viewport: 0.3;">
+                                        <div class="uk-thumbnav group">
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img class="w-full max-h-[335px] h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-6-img.png" alt="gallery" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div uk-parallax="y: 100,0; x: 100,0; opacity: 0,1; viewport: 0.3;">
+                                        <div class="uk-thumbnav group">
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img class="w-full max-h-[335px] h-[285px] 2xl:h-auto object-cover group-hover:scale-110 transition duration-500 delay-100" src="../assets/img/about/about-galary-7-img.png" alt="gallery" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="uk-grid-small uk-child-width-1-1 uk-visible@m uk-hidden@l" uk-grid>
+                    <div>
+                        <div class="uk-grid-small uk-child-width-1-2 uk-grid-match uk-hidden@l" uk-grid>
+                            <div>
+                                <div class="uk-thumbnav">
+                                    <div class="uk-active">
+                                        <div>
+                                            <img class="min-h-[555px]" src="../assets/img/about/about-galary-1-img.png" alt="gallery" loading="lazy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="uk-grid-small uk-grid-match uk-child-width-1-1" uk-grid>
+                                    <div>
+                                        <div class="uk-thumbnav">
+                                            <div>
+                                                <div>
+                                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-4-img.png" alt="gallery" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class="uk-thumbnav">
+                                            <div>
+                                                <div>
+                                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-5-img.png" alt="gallery" loading="lazy">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="uk-grid-small uk-child-width-1-4 uk-thumbnav" uk-grid>
+                            <div>
+                                <div>
+                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-2-img.png" alt="gallery" loading="lazy">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-3-img.png" alt="gallery" loading="lazy">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-6-img.png" alt="gallery" loading="lazy">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img class="min-h-[265px] object-cover" src="../assets/img/about/about-galary-7-img.png" alt="gallery" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="uk-grid-small uk-child-width-1-1 uk-hidden@m" uk-grid>
+                    <div>
+                        <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-1-img.png" alt="gallery" loading="lazy">
+                    </div>
+                    
+                    <div>
+                        <div class="uk-grid-small uk-child-width-1-2" uk-grid>
+                            <div>
+                                <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-2-img.png" alt="gallery" loading="lazy">
+                            </div>
+                            <div>
+                                <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-3-img.png" alt="gallery" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-4-img.png" alt="gallery" loading="lazy">
+                    </div>
+
+                    <div>
+                        <div class="uk-grid-small uk-child-width-1-2" uk-grid>
+                            <div>
+                                <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-6-img.png" alt="gallery" loading="lazy">
+                            </div>
+                            <div>
+                                <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-7-img.png" alt="gallery" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="uk-width-1-1 h-auto object-cover" src="../assets/img/about/about-galary-5-img.png" alt="gallery" loading="lazy">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section bg-[#f8f8f8] clients-section uk-background-fixed uk-background-center-center" uk-scrollspy="target: .animFade; cls: uk-animation-fade; delay: 100" style="animation-duration: 0.1;">
+        <div class="uk-container uk-container-large">
+            <div class="uk-grid-match" uk-grid>
+                <div class="uk-width-1-2@l animFade" style="z-index: 1;">
+                    <div>
+                        <div class="flex uk-flex-center uk-flex-left@l uk-text-center uk-text-left@l">
+                            <div class="bg-[#000] uk-padding bg-opacity-[0.12] rounded-[4px] uk-margin-large-top uk-display-inline-block">
+                                <div class="sm:w-[460px] mx-auto">
+                                    <h2 class="heading-main text-[#fff]">
+                                        3 million client
+                                        choose us.
+                                    </h2>
+                                    <div class="mt-[10px]">
+                                        <p class="text-[#fff] sm:text-lg 2xl:text-xl">
+                                            Things go wrong. You’ll have questions. We understand. So we have people.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-auto@l uk-width-1-1 flex justify-center">
+                    <div class="uk-width-1-1 uk-flex uk-flex-center" style="z-index: 1;">
+                        <div class="sm:w-[440px] xl:w-[460px] 2xl:w-[540px] uk-flex uk-flex-center uk-margin-small-left">
+                            <div>
+                                <form method="post" action="" class="form uk-grid uk-grid-small uk-flex-column uk-padding uk-flex-center bg-[#fff] rounded-[4px] animFade" uk-grid>
+                                    <div>
+                                        <p class="text-[#1d1d1b] text-opacity-[0.64] 2xl:text-lg uk-margin-small-bottom">MFaktor is an independent, international branding agency. We provide a wide range of branding services.</p>
+                                    </div>
+                                    <div>
+                                        
+                                        <div class="uk-grid uk-grid-small uk-child-width-1-1 uk-position-relative" uk-grid>
+                                            <div>
+                                                <input type="text" placeholder="Ism" class="2xl:text-lg text-[#1d1d1b] bg-[#f8f8f8] w-full form-input style-btn focus:outline-none 2xl:mt-[6px]" required>
+                                            </div>
+                                            <div>
+                                                <input type="text" placeholder="Tel.raqam" class="2xl:text-lg text-[#1d1d1b] bg-[#f8f8f8] w-full form-input style-btn focus:outline-none 2xl:mt-[6px]" required>
+                                            </div>
+                                            <div>
+                                                <div class="2xl:mt-[6px]">
+                                                    <select class="uk-select">
+                                                        <option value="" disabled selected>Xizmat turi</option>
+                                                        <option value="1">Treinglar</option>
+                                                        <option value="2">Kurslar</option>
+                                                        <option value="3">Reklama xizmatlari</option>
+                                                        <option value="4">Tijoriy ko‘rsatuvlar</option>
+                                                        <option value="5">Tadbirlar tashkillashtirish</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="mt-[12px]">
+                                                    <label class="relative cursor-pointer">
+                                                        <input class="uk-checkbox absolute top-[6px] left-0" id="formcheck" type="checkbox" required>
+                                                        <p class="w-full text-sm text-[#1d1d1b] text-opacity-[0.48] m-0 leading-[22px]">
+                                                            <span class="ml-[20px]">Tugmani</span> bosish orqali siz bizning ma’lumotlaringizni
+                                                            ishlatish bo’yicha ofertamizga rozi bo’lgan bo’lasiz.
+                                                        </p>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <button class="bg-[#E30613] text-[#fff] w-full style-btn mt-[34px] font-500 2xl:text-lg hover:animate-pulse">Yuborish</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    
+    <footer class="uk-section bg-[#f8f8f8] uk-padding-remove-bottom uk-overflow-hidden">
+        <div class="uk-container uk-container-large">
+            <div class="border-t-2 border-b-2 border-[#1d1d1b] border-opacity-[0.06]">
+                <div class="uk-padding uk-padding-remove-horizontal uk-flex-between@m uk-text-center uk-text-left@m" uk-grid>
+                    <div class="uk-width-expand@m">
+                        <div class="uk-grid-small uk-flex-column" uk-grid>
+                            <div>
+                                <a href="index.html" class="uk-display-inline-block">
+                                    <img class="w-[120px] sm:w-[235px]" src="../assets/img/logos/Logo-black.svg" alt="logo" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="uk-visible@m">
+                                <div class="mt-[30px] text-[#fff]">
+                                    <a href="#" class="btn-small bg-[#E30613] hover:animate-pulse hover-link text-[#fff]">
+                                        <span class="bg"></span>
+                                        Fikr qoldirish
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-5@m">
+                        <ul class="uk-grid-small uk-flex-column" uk-grid>
+                            <li>
+                                <h4 class="text-[#1d1d1b] font-bold">Biz haqimizda</h4>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./about.html#aboutStory" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    MFactor tarixi
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./about.html#aboutSpeakers" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Spikerlar
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./about.html#aboutPartners" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Hamkorlar
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-5@m">
+                        <ul class="uk-grid-small uk-flex-column" uk-grid>
+                            <li>
+                                <h4 class="text-[#1d1d1b] font-bold">Xizmatlar</h4>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="training.html" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Treninglar
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="cours.html" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Kurslar
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="add.html" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Reklama xizmatlari
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="shows.html" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Tijoriy ko‘rsatuvlar
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="events.html" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Tadbir tashkillashtirish
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-1-6@l uk-width-1-5@m">
+                        <ul class="uk-grid-small uk-flex-column" uk-grid>
+                            <li>
+                                <h4 class="text-[#1d1d1b] font-bold">FAQ</h4>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./FAQ.html#commercialShows" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Tijoriy ko‘rsatuvlar
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./FAQ.html#eventOrganization" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Tadbir tashkillashtirish
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="./FAQ.html#adServices" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Reklama bo‘yicha
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-auto@m uk-width-1-1">
+                        <ul class="uk-grid-small uk-flex-column" uk-grid>
+                            <li>
+                                <h4 class="text-[#1d1d1b] font-bold">Kontakt</h4>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="#" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Telefon raqam
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="#" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Elektron pochta
+                                </a>
+                            </li>
+                            <li class="text-[#1d1d1b]">
+                                <a href="#" class="text-[#1d1d1b] text-opacity-[0.64] hover-link">
+                                    Manzil
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-hidden@m mx-auto mb-[15px]">
+                        <div class="mt-[30px] text-[#fff]">
+                            <a href="#" class="btn-small bg-[#E30613] hover-link text-[#fff]">Fikr qoldirish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 border-[#1d1d1b] border-opacity-[0.06] uk-padding uk-padding-remove-horizontal">
+                <div class="uk-flex-middle uk-text-center uk-text-left@m" uk-grid>
+                    <div class="uk-width-expand@m">
+                        <h3 class="heading-fourth text-[#1d1d1b]">Kontaktlar</h3>
+                    </div>
+                    <div class="uk-width-1-5@l uk-width-1-4@m">
+                        <div>
+                            <h5 class="text-sm text-[#1d1d1b] font-bold">TEL.RAQAM</h5>
+                            <div class="mt-[3px] text-[#E30613]">
+                                <a href="tel:+998909004938" class="2xl:text-lg text-[#E30613] hover-link hover:animate-pulse line-animation">+998 (90) 900-49-38</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-5@l uk-width-1-4@m">
+                        <div>
+                            <h5 class="text-sm text-[#1d1d1b] font-bold">TEL.RAQAM</h5>
+                            <div class="mt-[3px] text-[#E30613]">
+                                <a href="mailto:mfaktor@ibrohim.info.com" class="2xl:text-lg text-[#E30613] hover-link hover:animate-pulse line-animation">mfaktor@ibrohim.info.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-5@m uk-width-auto@l">
+                        <div>
+                            <h5 class="text-sm text-[#1d1d1b] font-bold">TEL.RAQAM</h5>
+                            <div class="mt-[3px] text-[#E30613]">
+                                <a href="#" class="2xl:text-lg text-[#E30613] hover-link hover:animate-pulse line-animation">Mirobod tumani, Said baraka ko‘chasi 18/1</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-padding uk-padding-remove-horizontal uk-flex-between@m uk-text-center" uk-grid>
+                    <!-- mobile's socials -->
+                    <div class="uk-hidden@m mx-auto">
+                        <ul class="uk-grid uk-flex-middle" uk-grid>
+                            <li>
+                                <a href="#">
+                                    <img class="w-[24px] h-[24px]" src="../assets/img/svg/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="w-[24px] h-[24px]" src="../assets/img/svg/telegramsvg.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="w-[24px] h-[24px]" src="../assets/img/svg/facebook.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="w-[24px] h-[24px]" src="../assets/img/svg/youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- mobile's social -->
+                    
+                    <div class="uk-width-1-4@m">
+                        <p class="text-[#1d1d1b] text-opacity-[0.36] text-sm 2xl:text-base">© <span class="text-[#E30613]">MFaktor</span> Barcha huquqlar himoyalangan</p>
+                    </div>
+                    <div class="uk-visible@m">
+                        <ul class="uk-grid uk-flex-middle" uk-grid>
+                            <li>
+                                <a href="#" class="group">
+                                    <img class="w-[24px] h-[24px] group-hover:scale-105 transition duration-100" src="../assets/img/svg/instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="group">
+                                    <img class="w-[24px] h-[24px] group-hover:scale-105 transition duration-100" src="../assets/img/svg/telegramsvg.svg" alt="telegram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="group">
+                                    <img class="w-[24px] h-[24px] group-hover:scale-105 transition duration-100" src="../assets/img/svg/facebook.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="group">
+                                    <img class="w-[24px] h-[24px] group-hover:scale-105 transition duration-100" src="../assets/img/svg/youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-1-4@m">
+                        <div class="uk-flex uk-flex-right@m uk-flex-center text-[#1d1d1b]">
+                            <a href="mount.uz" class="uk-flex uk-flex-middle text-[#1d1d1b] hover-link text-sm 2xl:text-base">
+                                <span class="m-0">Powered by</span>
+                                <img class="w-[80px] ml-2" src="../assets/img/logos/mount.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="fixed right-[30px] bottom-[100px]" style="z-index: 1;">
+        <a href="#connectModal" class="w-[72px] h-[72px] flex items-center justify-center bg-[#fff] rounded-full animate-pulse" uk-toggle>
+            <img class="w-[24px] h-[24px]" src="../assets/img/svg/call-calling.svg" alt="call">
+        </a>
+    </div>
+    
+    <div id="connectModal" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            
+            <form action="#" class="md:p-[30px]">
+                <h2 class="text-[28px] text-[#1d1d1b]" style="font-family: 'ALS Hauss';">Biz bilana bog'laning!</h2>
+                <div class="uk-grid-medium mt-[28px] md:mt-[43px]" uk-grid>
+                    <div class="uk-width-1-1">
+                        <div>
+                            <label class="uk-form-label" style="color: #1d1d1b; font-size: 18px;" for="form-stacked-text">Ismingiz</label>
+                            <input type="text" placeholder="Muhammad Aziz" class="2xl:text-lg text-[#1d1d1b] bg-[#f8f8f8] w-full form-input style-btn focus:outline-none 2xl:mt-[6px]" required>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1">
+                        <div class="2xl:mt-[6px]">
+                            <label class="uk-form-label" style="color: #1d1d1b; font-size: 18px;" for="form-stacked-text">Tel.raqam</label>
+                            <input type="text" placeholder="+998 (90) 900-49-38" class="2xl:text-lg text-[#1d1d1b] bg-[#f8f8f8] w-full form-input style-btn focus:outline-none 2xl:mt-[6px]" required>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1">
+                        <button class="bg-[#E30613] text-[#fff] w-full style-btn mt-[18px] md:mt-[34px] font-500 2xl:text-lg hover:animate-pulse">Yuborish</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <div id="overlay" class="uk-position-fixed uk-width-1-1 uk-height-1-1 uk-position-top-left uk-flex uk-flex-center uk-flex-middle" style="background-color: #fff !important; z-index: 10001;">
+        <div id="loader">
+            <div class="flex flex-col items-center justify-center uk-cover-container">
+                <img class="w-[200px]" src="../assets/img/logos/Logo-black.svg" alt="Logo">
+            </div>
+        </div>
+    </div>
+    
+    <script src="../assets/js/uikit-icons.min.js"></script>
+    <script src="../assets/js/uikit.min.js"></script>
+    <script type="module" src="../assets/js/functions.js"></script>
+    <script type="module" src="../assets/js/custom.js"></script>
+    
+</body>
+</html>
